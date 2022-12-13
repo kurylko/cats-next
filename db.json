@@ -1,0 +1,26 @@
+
+{
+    "items": [
+        {
+            "name": "Ketzilla",
+            "image": "/cat-1.png",
+            "desc": "Amazing cat 1",
+            "damage_score": 110,
+            "id": "001"
+        },
+        {
+            "name": "Super Cat",
+            "image": "/cat-2.png",
+            "desc": "Amazing cat 2",
+            "damage_score": 150,
+            "id": "002"
+        },
+        {
+            "name": "CatMan",
+            "image": "/cat-3.png",
+            "desc": "Amazing cat 3",
+            "damage_score": 200,
+            "id": "003"
+        }
+    ]
+}

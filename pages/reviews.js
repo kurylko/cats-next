@@ -13,7 +13,7 @@ const Reviews = ({ reviews }) => {
             <div>
                 <h1>Reviews</h1>
                 <div className='reviews'>
-                    {!!reviews.length && reviews.slice(0,10).map(res => {
+                    {!!reviews.length && reviews.slice(0,11).map(res => {
                         return (
                             <div key={res.id} className='review'>
                                 {res.id} {' '}
@@ -32,7 +32,7 @@ export async function getServerSideProps(){
     const data = await response.json();
     return{
         props:{
-            reviews: data.slice(0, 10)
+            reviews: data.slice(0, 11)
         }
     }
 }
