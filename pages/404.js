@@ -16,7 +16,7 @@ router.push('/');
         <div className='not-found'>
             <h1>Oops...</h1>
             <h2>Not found the page</h2>
-            <p>Go to <Link href='/'>main page</Link> in 3 sec</p>
+            <h3>Go to <Link href='/'>main page</Link> in 3 sec</h3>
         </div>
     )
 }

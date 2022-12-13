@@ -17,8 +17,8 @@ export default function Home() {
       <div className={styles.mainImage}>
         <Image src='/cat-1.png' alt='main-cat-img' width={400} height={300}/>
       </div>
-      <p className={styles.text}>Can you imagine a life without cats?</p>
-      <p className={styles.text}>Without nice meew and damaged furniture.</p>
+      <div className={styles.text}>Can you imagine a life without cats?</div>
+      <div className={styles.text}>Without nice meew and damaged furniture.</div>
       <Link href='/cats' passHref>  
         <Button className={styles.btn} component='a'>All amazing cats</Button>
         </Link>
