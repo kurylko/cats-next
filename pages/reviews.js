@@ -1,4 +1,5 @@
 import Head from "next/head";
+import styles from '../styles/Reviews.module.css';
 
 
 const Reviews = ({ reviews }) => {
@@ -12,12 +13,12 @@ const Reviews = ({ reviews }) => {
             </Head>
             <div>
                 <h1>Reviews</h1>
-                <div className='reviews'>
-                    {!!reviews.length && reviews.slice(0,11).map(res => {
+                <div className={styles.reviews}>
+                    {!!reviews.length && reviews.slice(0,5).map(res => {
                         return (
-                            <div key={res.id} className='review'>
-                                {res.id} {' '}
-                                {`${res.body.slice(0,90)}...`}
+                            <div key={res.id} className={styles.review}>
+                                {res.id} {' '} 
+                                {`${res.body.slice(0,80)}...`}
                             </div>
                         )
                     })}
@@ -32,7 +33,7 @@ export async function getServerSideProps(){
     const data = await response.json();
     return{
         props:{
-            reviews: data.slice(0, 11)
+            reviews: data.slice(0, 5)
         }
     }
 }
