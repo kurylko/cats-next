@@ -30,7 +30,7 @@ const Cats = ({ cats }) => {
                                 </div>
                             <div>
                                 <h3>{cat.name}</h3>
-                                <h4>{cat.desc}</h4>
+                                <h5>{cat.desc}</h5>
                             </div>
                         </div>
                     </Link>

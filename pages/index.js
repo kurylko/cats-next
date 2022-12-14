@@ -15,7 +15,7 @@ export default function Home() {
     <div className={styles.container}>
       <h1 className={`${styles.title} font-effect-fire-animation`}>Main page</h1>
       <div className={styles.mainImage}>
-        <Image src='/cat-1.png' alt='main-cat-img' width={400} height={300}/>
+        <Image src='/cat-1-c.png' alt='main-cat-img' width={400} height={300}/>
       </div>
       <div className={styles.text}>Can you imagine a life without cats?</div>
       <div className={styles.text}>Without nice meew and damaged furniture.</div>

@@ -3,24 +3,31 @@
     "items": [
         {
             "name": "Ketzilla",
-            "image": "/cat-1.png",
-            "desc": "Amazing cat 1",
+            "image": "/cat-1-c.png",
+            "desc": "Amazing cat 1 \n This pretty cat was the funniest one in a shelter.",
             "damage_score": 110,
             "id": "001"
         },
         {
             "name": "Super Cat",
-            "image": "/cat-2.png",
+            "image": "/cat-2-c.png",
             "desc": "Amazing cat 2",
             "damage_score": 150,
             "id": "002"
         },
         {
             "name": "CatMan",
-            "image": "/cat-3.png",
+            "image": "/cat-3-c.png",
             "desc": "Amazing cat 3",
             "damage_score": 200,
             "id": "003"
+        },
+        {
+            "name": "Grumpy cat",
+            "image": "/cat-4-c.png",
+            "desc": "Amazing cat 4",
+            "damage_score": 0,
+            "id": "004"
         }
     ]
 }
