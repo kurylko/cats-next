@@ -46,6 +46,7 @@ const Details = ({ cat }) => {
                     alt={`${cat.name}`}
                     width={100}
                     height={100}
+                    object-fit="contain" 
                 />
             </div>
             <div>
