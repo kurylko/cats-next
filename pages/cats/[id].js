@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Head from 'next/head';
 import styles from '../../styles/Cats.module.css';
 
 
@@ -32,6 +33,11 @@ export const getStaticProps = async (context) => {
 const Details = ({ cat }) => {
     console.log("cat", cat)
     return (
+        <>
+            <Head>
+                <title>Amazing cats | {cat.name}</title>
+                <meta name='title' content='Amazing cats' />
+            </Head>
         <div className={styles.singleCat}>
             <h1>{cat.name}</h1>
             <div className={styles.imageContainer}>
@@ -46,6 +52,7 @@ const Details = ({ cat }) => {
                 {cat.desc}
             </div>
         </div>
+        </>
     )
 
 }

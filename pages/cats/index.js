@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import Head from "next/head";
 import styles from '../../styles/Cats.module.css';
 
 export const getStaticProps = async () => {
@@ -13,6 +14,11 @@ export const getStaticProps = async () => {
 
 const Cats = ({ cats }) => {
     return (
+        <>
+            <Head>
+                <title>Amazing cats | Cats</title>
+                <meta name='title' content='Amazing cats' />
+            </Head>
         <div>
             <h1>Super Cats</h1>
             <h3>Some Super Cats living on our planet.</h3>
@@ -37,6 +43,7 @@ const Cats = ({ cats }) => {
                 )
             })}
         </div>
+        </>
     )
 
 }
