@@ -20,7 +20,7 @@ export default function Home() {
       <div className={styles.text}>Can you imagine a life without cats?</div>
       <div className={styles.text}>Without nice meew and damaged furniture.</div>
       <Link href='/cats' passHref>  
-        <Button className={styles.btn} component='a'>All amazing cats</Button>
+        <Button className={styles.btn}>All amazing cats</Button>
         </Link>
     </div>
     </>
