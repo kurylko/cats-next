@@ -4,13 +4,13 @@ import { useRouter } from "next/router";
 
 const NotFoundPage = () => {
 
-const router = useRouter();
+    const router = useRouter();
 
- useEffect(() => {
-    setTimeout(()=>{
-router.push('/');
-    }, 3000)
- }, []);
+    useEffect(() => {
+        setTimeout(() => {
+            router.push('/');
+        }, 3000)
+    }, []);
 
     return (
         <div className='not-found'>

@@ -4,7 +4,6 @@ import styles from '../styles/Reviews.module.css';
 
 const Reviews = ({ reviews }) => {
 
-    console.log(reviews)
     return (
         <>
             <Head>
